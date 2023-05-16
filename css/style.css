@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.movie {
+    padding: 2rem;
+}

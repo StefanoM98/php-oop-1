@@ -15,8 +15,8 @@ class Movie
 
     public function getFilm()
     {
-        echo "<h1>" . $this->title . "</h1>";
-        echo "<h2>" . $this->duration . "</h2>";
+        echo "<h2>" . $this->title . "</h2>";
+        echo "<h3>" . $this->duration . "</h2>";
         echo "<p>" . implode(", ", $this->genre) . "</p>";
     }
 }
