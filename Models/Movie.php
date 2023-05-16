@@ -4,7 +4,7 @@ class Movie
 {
     public $title;
     public $duration;
-    public $genre;
+    public $genre = array();
 
     function __construct($_title, $_duration, $_genre)
     {
@@ -17,6 +17,6 @@ class Movie
     {
         echo "<h1>" . $this->title . "</h1>";
         echo "<h2>" . $this->duration . "</h2>";
-        echo "<p>" . $this->genre . "</p>";
+        echo "<p>" . implode(", ", $this->genre) . "</p>";
     }
 }
